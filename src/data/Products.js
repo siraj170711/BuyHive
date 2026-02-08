@@ -47,7 +47,7 @@ const Products= [
     description: "Msi GC Nvidia Geforce Rtx 3080n",
     price: 62550,
     category: "graphics",
-    image: "/img/Gc.jpg",
+    image: "/img/GC.jpg",
   },
   {
     id: 7,
@@ -55,7 +55,7 @@ const Products= [
     description: "Gtx 1660 I5 9400f Graphics card",
     price: 11880,
     category: "graphics",
-    image: "/img/Gc2.jpg",
+    image: "/img/GC2.jpg",
   },
   {
     id: 8,
