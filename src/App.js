@@ -16,16 +16,12 @@ function App() {
           <Link to="/" className="navbar-brand fw-semibold fs-4">
             <i className="bi bi-bag-check-fill"></i>BuyHive
           </Link>
-           <button
-      className="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navmenu"
-    >
-      <span className="navbar-toggler-icon"></span>
-    </button>
+    
+           <button className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <span className="navbar-toggler-icon"></span>
+          </button>
 
-          <div className="collapse navbar-collapse justify-content-end">
+          <div id="navmenu" className="collapse navbar-collapse justify-content-end">
             <ul className="navbar-nav">
               <li className="nav-item">
                 <Link to="/cart" className="nav-link">Cart</Link>
@@ -47,7 +43,6 @@ function App() {
           </div>
         </div>
       </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
       <Routes>
         <Route path="/" element={<Home />} />
