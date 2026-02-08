@@ -16,6 +16,14 @@ function App() {
           <Link to="/" className="navbar-brand fw-semibold fs-4">
             <i className="bi bi-bag-check-fill"></i>BuyHive
           </Link>
+           <button
+      className="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navmenu"
+    >
+      <span className="navbar-toggler-icon"></span>
+    </button>
 
           <div className="collapse navbar-collapse justify-content-end">
             <ul className="navbar-nav">
